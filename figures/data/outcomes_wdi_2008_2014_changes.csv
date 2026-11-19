@@ -1,0 +1,3 @@
+country_code,start_year,end_year,gini_2008,gini_2014,gini_change_points,bottom20_share_2008_pct,bottom20_share_2014_pct,bottom20_share_change_pp
+BRA,2008,2014,54.0,52.1,-1.9,3.2,3.6,0.4
+MEX,2008,2014,50.8,48.9,-1.9,3.9,4.7,0.8

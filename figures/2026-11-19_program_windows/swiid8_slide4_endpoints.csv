@@ -1,0 +1,5 @@
+country,income_definition,start_year,end_year,gini_start,gini_end,gini_change_points,provenance
+Brazil,market,2003,2014,58.6,53.8,-4.8,Transcribed from supplied PPTX slide 4 SWIID 8.0 table; raw source not independently verified
+Mexico,market,1997,2014,48.6,47.1,-1.5,Transcribed from supplied PPTX slide 4 SWIID 8.0 table; raw source not independently verified
+Brazil,disposable,2003,2014,50.7,45.0,-5.7,Transcribed from supplied PPTX slide 4 SWIID 8.0 table; raw source not independently verified
+Mexico,disposable,1997,2014,47.7,45.2,-2.5,Transcribed from supplied PPTX slide 4 SWIID 8.0 table; raw source not independently verified

@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+work/
+.DS_Store
+.presentation-build/
+.chart-data-*/
+sources/
+*.zip

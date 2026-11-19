@@ -1,0 +1,67 @@
+# Brazil–Mexico inequality presentation: references master list
+
+Prepared 19 November 2026. **Copy only the entries for figures retained in the final deck.** The first two sections are formatted as short English references for slide use. The figure map below shows what each source covers.
+
+## A. Data references: ready to paste into a References slide
+
+1. World Bank. (2026). *World Development Indicators / Poverty and Inequality Platform*: [Gini index (SI.POV.GINI)](https://data.worldbank.org/indicator/SI.POV.GINI), [income share of the bottom 20% (SI.DST.FRST.20)](https://data.worldbank.org/indicator/SI.DST.FRST.20), [population (SP.POP.TOTL)](https://data.worldbank.org/indicator/SP.POP.TOTL), [consumer price index (FP.CPI.TOTL)](https://data.worldbank.org/indicator/FP.CPI.TOTL), and [female employment-to-population ratio (SL.EMP.TOTL.SP.FE.ZS)](https://data.worldbank.org/indicator/SL.EMP.TOTL.SP.FE.ZS). Accessed 19 November 2026.
+2. CEDLAS and World Bank. (2026). *Socio-Economic Database for Latin America and the Caribbean (SEDLAC)*: [wages and hours](https://www.cedlas.econo.unlp.edu.ar/wp/wp-content/uploads/2026_Act1_wages_hours_LAC.xlsx), [incomes](https://www.cedlas.econo.unlp.edu.ar/wp/wp-content/uploads/2026_Act1_incomes_LAC.xlsx), and [poverty](https://www.cedlas.econo.unlp.edu.ar/wp/wp-content/uploads/2024_Act1_poverty_LAC.xlsx). [Catalogue](https://www.cedlas.econo.unlp.edu.ar/wp/en/statistics/sedlac/statistics-3/) and [methodological guide](https://www.cedlas.econo.unlp.edu.ar/wp/wp-content/uploads/Methodological_Guide_v201404.pdf). Accessed 19 November 2026.
+3. International Labour Organization (ILO). (2008, 2013, 2015). *Labour Overview: Latin America and the Caribbean*, statistical annex, real minimum wage tables: [2008, Table 10-A](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40americas/%40ro-lima/documents/publication/wcms_187428.pdf), [2013, Table 10](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40americas/%40ro-lima/documents/publication/wcms_242634.pdf), [2015, Table 10](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40americas/%40ro-lima/documents/publication/wcms_450098.pdf).
+4. ILOSTAT. (2026). *Wages and Working Time Statistics (COND)*, “Monthly minimum wage by currency” (`EAR_INEE_CUR_NB_A`), Brazil and Mexico exports supplied 19 November 2026. [Database and indicator catalogue](https://ilostat.ilo.org/databases/cond/).
+5. ILOSTAT. (2026). *Trade union density* (`ILR_TUMT_NOC_RT_A`) and *informal employment rate* (`EMP_NIFL_SEX_RT_A`). [Bulk data facility](https://ilostat.ilo.org/data/bulk/) and [methods](https://ilostat.ilo.org/methods/).
+6. Solt, F. (2019). *The Standardized World Income Inequality Database (SWIID), version 8.0*. [Dataset and version archive](https://fsolt.org/swiid/swiid_downloads/). https://doi.org/10.7910/DVN/LM4OWF. **The local endpoint figure reproduces rounded values from the supplied slide; the underlying SWIID 8.0 file was not independently rechecked.**
+7. World Bank. (2026). *ASPIRE: Atlas of Social Protection Indicators of Resilience and Equity*, [performance indicators](https://www.worldbank.org/en/data/datatopics/aspire/indicator/performance), [download](https://datacatalogfiles.worldbank.org/ddh-published/0037942/DR0087109/ASPIRE%20performance%20indicators.zip), and [documentation](https://www.worldbank.org/en/data/datatopics/aspire/documentation). Accessed 19 November 2026.
+8. UNESCO Institute for Statistics. (2026). *Total net attendance rate*, including poorest-quintile girls of upper-secondary age (`NART.3.Q1.F`): [data query](https://api.uis.unesco.org/api/public/data/indicators?indicator=NART.3.Q1.F&indicator=NART.3.F&geoUnit=BRA&geoUnit=MEX&start=2004&end=2014&footnotes=true) and [definition](https://www.uis.unesco.org/sites/default/files/medias/fichiers/2025/07/Total_Net_attendance_rate_final_0.pdf).
+9. World Health Organization and World Bank. (2021). *Tracking Universal Health Coverage: 2021 Global Monitoring Report*, Annex 3, service coverage index. [Report](https://cdn.who.int/media/docs/default-source/world-health-data-platform/events/tracking-universal-health-coverage-2021-global-monitoring-report_uhc-day.pdf?download=true).
+10. Economic Commission for Latin America and the Caribbean (ECLAC). (2018). *Social Panorama of Latin America 2017*, Table I.1, household-survey Gini changes. [Publication](https://www.cepal.org/en/publications/42717-social-panorama-latin-america-2017).
+11. Azevedo, J. P., Inchauste, G., and Sanfelice, V. (2013). *Decomposing the Recent Inequality Decline in Latin America*. World Bank Policy Research Working Paper 6715, Figure 7 and Table 2. [Paper](https://documents.worldbank.org/curated/en/597661468054543060/pdf/WPS6715.pdf).
+
+### Provisional health-spending reference (use only after checking the plotted values)
+
+12. World Health Organization, *Global Health Expenditure Database*, via World Bank WDI. [Out-of-pocket expenditure as a share of current health expenditure (`SH.XPD.OOPC.CH.ZS`)](https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS). **The local 2000–2014 chart was transcribed from a third-party WDI mirror, not checked against a fresh WHO/World Bank export.**
+
+## B. Programme timeline, ideology and impact-study references
+
+13. Brazil: [Casa Civil presidential archives](https://www.gov.br/casacivil/pt-br/acesso-a-informacao/receitas-e-despesas/acervos-de-mandatos-presidenciais-encerrados); [2003 founding measure for Bolsa Família](https://legislacao.presidencia.gov.br/atos/?ano=2003&ato=33dgXUU50dRpWTa36&numero=132&tipo=MPV); [Ministry of Social Development programme history](https://www.gov.br/mds/pt-br/noticias-e-conteudos/desenvolvimento-social/noticias-desenvolvimento-social/bolsa-familia-reforca-combate-a-pobreza-e-melhora-seguranca-alimentar-aponta-estudo/40_Caderno_Estudos.pdf); [2018 SENARC programme profile](https://www.mds.gov.br/webarquivos/sala_de_imprensa/boletins/boletim_senarc/2018/Boletim%20Senarc%20N%20%2039_SETEMBRO_2018.pdf).
+14. Mexico: [INE presidential periods](https://www.ine.mx/wp-content/uploads/2019/04/20AlternanciaElectoralNoresteMexico.pdf); [World Bank programme history](https://documents1.worldbank.org/curated/en/154251517454030254/pdf/Mexico-PP-01092018.pdf); [CONEVAL programme monitoring](https://www.coneval.org.mx/InformesPublicaciones/Documents/FIMyE_19-20.pdf); [2018 government report on PROSPERA](https://sil.gobernacion.gob.mx/Archivos/Documentos/2018/09/asun_3739965_20180925_1537985977.pdf); [official 2024 presidential-term decree](https://sidof.segob.gob.mx/notas/docFuente/5737865).
+15. Government colour categories in the timeline: [research on Brazilian party and presidential ideology](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/ideology-of-brazilian-parties-and-presidents-a-research-note-on-coalitional-presidentialism-under-stress/FAF5489B3E01D39A16DBB4971458AD48); [Wilson Center on Mexican parties](https://www.wilsoncenter.org/microsite/3/node/116853); [International IDEA on Morena](https://www.idea.int/publications/catalogue/html/informe-sobre-las-elecciones-de-2024-en-mexico-la-continuidad-del). **These colours are broad interpretive classifications, not V-Dem index values.**
+16. Soares, S., et al. (2007). *Conditional Cash Transfers in Brazil, Chile and Mexico: Impacts upon Inequality*. International Poverty Centre Working Paper 35. [IPEA-hosted paper](https://repositorio.ipea.gov.br/server/api/core/bitstreams/697faca5-ecd2-4d30-a7de-d385785740f2/content).
+17. Souza, P. H. G. F., et al. (2019). *Os Efeitos do Programa Bolsa Família sobre a pobreza e a desigualdade: um balanço dos primeiros quinze anos*. IPEA Texto para Discussão 2499. [Paper and abstract](https://repositorio.ipea.gov.br/items/53006dfc-16db-46d0-a9bc-212c7121c2af).
+18. Additional programme outcome studies used in the 2018 comparison infographic: [de Brauw et al. (2014), Brazil schooling](https://citeseerx.ist.psu.edu/document?doi=08d48e5902fd8137c449c717180f2e626638be03&repid=rep1&type=pdf); [Schultz, Mexico schooling](https://ageconsearch.umn.edu/record/16409/files/fc010102.pdf); [Brazil MDS/IFPRI impact evaluation, health](https://acervodigital.mds.gov.br/xmlui/bitstream/handle/123456789/77/AvaliacaodeImpactoProgramaBolsaFamiliaII.pdf?sequence=1); [Gertler and Boyce (2001), Progresa health](https://www.povertyactionlab.org/sites/default/files/research-paper/449%20Progresa%20Health%20Gertler%202001.pdf); [Bornhorst (2009), school enrolment](https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2009/_wp09187.pdf); [Aguilar-Gutiérrez (2016), Mexican transfer decomposition](https://est.cmq.edu.mx/index.php/est/article/download/467/1203/7439); [Lambert and Park (2019), Mexican transfers](https://www.imf.org/-/media/files/publications/wp/2019/wpiea2019148.pdf). Exact claim-to-study notes are in [`data/cct_infographic_sources.md`](data/cct_infographic_sources.md).
+
+## C. Which references go with which figures?
+
+| Figure(s) in this project | Include entries | Selection note |
+| --- | --- | --- |
+| `gini_brazil_mexico_1997_2024_*`, `bottom20_income_share_*`, `program_window_inequality_*`, `research_question_*`, `2026-11-19_puzzle/01_*` | 1 | WDI/PIP survey observations. Brazil's 2012 survey transition and Mexico's 2006–08/2014–16 breaks matter for long trends. |
+| `2026-11-19_program_windows/01_swiid_*` | 6 | Slide-4 SWIID 8.0 endpoint values were reproduced, not independently re-extracted. |
+| `output/minimum_wage_*`, `2026-11-19_program_windows/02_*`, `2026-11-19_puzzle/02_*` | 3 | Real minimum wage **index**; rebasing changes the reference year, not the data. |
+| `2026-11-19_ilostat_minimum_wage/01_*` and `02_*` | 4 | Annual statutory monthly minimum wage in PPP dollars or nominal local currency; not the real-wage index and not male-specific. |
+| `2026-11-19_skill_premium/01_*` | 2 | SEDLAC `wagegaps`: high/low hourly-wage ratio, prime-age males; Mexico first in-window observation is 1998. |
+| `2026-11-19_skill_premium/02_*` | 1, 2 | SEDLAC `wage_1` by education, deflated with WDI CPI and indexed within each country. Different population from the preceding ratio figure. |
+| `sedlac_urban_rural_income_ratio`, `sedlac_rural_urban_poverty_gap`, `estimated_people_below_poverty_line` | 1, 2 | The count estimate also uses WDI population; poverty line is $6.85/day at 2017 PPP in the source workbook. |
+| `aspire_cct_coverage_targeting`, `aspire_cct_population_coverage`, `estimated_people_covered_by_cct`, `poverty_vs_cct_coverage_percent` | 1, 2, 7 | ASPIRE survey-based CCT **category**, not one named programme; estimated counts also use WDI population. |
+| `labour_union_informality_*` | 5 | Older contextual figure; union density and informal employment use different worker denominators. |
+| `female_employment_brazil_mexico_*` | 1 | WDI female employment-to-population indicator. |
+| `education_attendance_brazil_mexico_common_years` | 8 | Total attendance at any education level for girls of upper-secondary age; survey observations only. |
+| `2026-11-19_puzzle/03_uhc_*` | 9 | UHC service coverage index; sparse benchmark years and historical report vintage. |
+| `2026-11-19_puzzle/04_out_of_pocket_*` | 12 | **Provisional:** confirm against official export before final use. |
+| `latin_america_gini_change_2002_2014` | 10 | ECLAC regional context; do not splice with the WDI time series. |
+| `gini_decomposition_brazil_mexico_comparison`, `hourly_earnings_brazil_mexico_comparison` | 11 | Published study's 2001–11 Brazil and 2000–10 Mexico comparisons; different from current study windows. |
+| `cct_program_timeline_*` | 13–15 | Terms and programme history; ideology colours are not V-Dem. |
+| `cct_program_comparison_infographic` | 1, 2, 13, 14, 16–18 | 2018 snapshot mixes national indicators, programme statistics and published evaluation estimates; see detailed source ledger. |
+
+## D. Requested sources with no verified figure yet
+
+- **ECLAC non-contributory pension and transfer spending:** [ECLAC programme database](https://dds.cepal.org/bpsnc/home) is a candidate, but a comparable combined annual Brazil–Mexico series was not constructed. Do not cite it as a source of plotted results.
+- **V-Dem cabinet/government ideology and civil-society indicators:** [V-Dem dataset](https://www.v-dem.net/data/the-v-dem-dataset/) was requested, but no verified numerical extract is used in the current figures. In particular, the timeline's party colours are **not** V-Dem-coded.
+- **Out-of-pocket health spending:** item 12 identifies the official series, but the plotted values remain provisional until checked against an official export.
+
+## Source-line examples for individual slides
+
+- Gini/bottom 20%: `Source: World Bank WDI/PIP, SI.POV.GINI and SI.DST.FRST.20; accessed 19 Nov 2026.`
+- Real minimum wage: `Source: ILO, Labour Overview 2008, 2013 and 2015, real minimum wage tables; authors' rebasing.`
+- Nominal/PPP minimum wage: `Source: ILOSTAT, EAR_INEE_CUR_NB_A, Brazil and Mexico exports, 19 Nov 2026.`
+- Education wage gap: `Source: SEDLAC (CEDLAS and World Bank), wages and hours, wagegaps sheet, Nov 2026.`
+- Real wages by education: `Source: SEDLAC wage_1; World Bank WDI FP.CPI.TOTL; authors' inflation adjustment and indexing.`
+- Timeline: `Sources: Brazil Casa Civil/MDS; Mexico INE/CONEVAL/World Bank; ideology categories based on party research (not V-Dem).`

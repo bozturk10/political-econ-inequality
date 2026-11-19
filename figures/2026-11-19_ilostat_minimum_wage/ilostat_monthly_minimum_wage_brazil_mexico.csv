@@ -1,0 +1,31 @@
+country,year,monthly_minimum_local_currency,monthly_minimum_2021_ppp_dollars,monthly_minimum_us_dollars,source,note
+Brazil,2003,240.0,181.535,77.986,ADM - Labour legislation,Currency: BRA - Real (BRL)
+Brazil,2004,260.0,189.431,88.885,ADM - Labour legislation,Currency: BRA - Real (BRL)
+Brazil,2005,300.0,211.463,123.234,ADM - Labour legislation,Currency: BRA - Real (BRL)
+Brazil,2006,350.0,244.439,160.895,ADM - Labour legislation,Currency: BRA - Real (BRL)
+Brazil,2007,380.0,263.372,195.166,ADM - Labour legislation,Currency: BRA - Real (BRL)
+Brazil,2008,415.0,282.623,226.31,ADM - Labour legislation,Type of minimum wage: National floor | Currency: BRA - Real (BRL)
+Brazil,2009,465.0,300.843,232.566,ADM - Labour legislation,Type of minimum wage: National floor | Currency: BRA - Real (BRL)
+Brazil,2010,510.0,319.281,289.9,ADM - Labour legislation,Type of minimum wage: National floor | Currency: BRA - Real (BRL)
+Brazil,2011,545.0,330.059,325.796,ADM - Labour legislation,Type of minimum wage: National floor | Currency: BRA - Real (BRL)
+Brazil,2012,622.0,372.723,318.473,ADM - Labour legislation,Type of minimum wage: National floor | Currency: BRA - Real (BRL)
+Brazil,2013,678.0,375.636,314.458,ADM - Labour legislation,Type of minimum wage: National floor | Currency: BRA - Real (BRL)
+Brazil,2014,724.0,376.71,307.699,ADM - Labour legislation,Type of minimum wage: National floor | Currency: BRA - Real (BRL)
+Mexico,1997,632.0,127.64,79.814,ILO - SIALC Estimates,Currency: MEX - New Peso (MXN)
+Mexico,1998,830.0,148.672,90.849,ILO - SIALC Estimates,Currency: MEX - New Peso (MXN)
+Mexico,1999,830.0,133.341,86.817,ILO - SIALC Estimates,Currency: MEX - New Peso (MXN)
+Mexico,2000,913.0,134.754,96.557,ILO - SIALC Estimates,Currency: MEX - New Peso (MXN)
+Mexico,2001,977.0,142.179,104.578,ILO - SIALC Estimates,Currency: MEX - New Peso (MXN)
+Mexico,2002,1033.0,142.727,106.981,ILO - SIALC Estimates,Currency: MEX - New Peso (MXN)
+Mexico,2003,1080.0,150.791,100.102,ILO - SIALC Estimates,Currency: MEX - New Peso (MXN)
+Mexico,2004,1125.0,148.647,99.681,ILO - SIALC Estimates,Currency: MEX - New Peso (MXN)
+Mexico,2005,1176.0,153.759,107.911,ILO - SIALC Estimates,Currency: MEX - New Peso (MXN)
+Mexico,2006,1223.0,161.304,112.21,ILO - SIALC Estimates,Currency: MEX - New Peso (MXN)
+Mexico,2007,1271.0,160.508,116.305,ILO - SIALC Estimates,Currency: MEX - New Peso (MXN)
+Mexico,2008,1321.738,162.006,118.758,ILO - SIALC Estimates,Type of minimum wage: National floor | Currency: MEX - New Peso (MXN) | ILO calculation: Daily figure multiplied by 6 days and 4.33 weeks
+Mexico,2009,1382.834,162.86,102.33,ILO - SIALC Estimates,Type of minimum wage: National floor | Currency: MEX - New Peso (MXN) | ILO calculation: Daily figure multiplied by 6 days and 4.33 weeks
+Mexico,2010,1449.91,162.653,114.744,ILO - SIALC Estimates,Type of minimum wage: National floor | Currency: MEX - New Peso (MXN) | ILO calculation: Daily figure multiplied by 6 days and 4.33 weeks
+Mexico,2011,1509.44,168.837,121.5,ILO - SIALC Estimates,Type of minimum wage: National floor | Currency: MEX - New Peso (MXN) | ILO calculation: Daily figure multiplied by 6 days and 4.33 weeks
+Mexico,2012,1579.38,171.235,119.927,ILO - SIALC Estimates,Type of minimum wage: National floor | Currency: MEX - New Peso (MXN) | ILO calculation: Daily figure multiplied by 6 days and 4.33 weeks
+Mexico,2013,1640.99,178.74,128.483,ILO - SIALC Estimates,Type of minimum wage: National floor | Currency: MEX - New Peso (MXN) | ILO calculation: Daily figure multiplied by 6 days and 4.33 weeks
+Mexico,2014,1704.948,182.277,128.264,ILO - SIALC Estimates,Type of minimum wage: National floor | Currency: MEX - New Peso (MXN) | ILO calculation: Daily figure multiplied by 6 days and 4.33 weeks

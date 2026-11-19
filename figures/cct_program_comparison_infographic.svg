@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2140" viewBox="0 0 1200 2140">
+<style>text{font-family:Arial,Helvetica,sans-serif}</style>
+<rect x="0" y="0" width="1200" height="2140" rx="0" fill="#ffffff" stroke="none"/>
+<text x="70" y="60" font-size="30" fill="#203040" font-weight="bold" text-anchor="start">Brazil and Mexico: CCT programs at a glance</text>
+<text x="70" y="91" font-size="16" fill="#5b6570" font-weight="normal" text-anchor="start">2018 snapshot unless otherwise noted  |  Counts refer to households and their members</text>
+<line x1="70" y1="111" x2="1130" y2="111" stroke="#d6dce2" stroke-width="1"/>
+<rect x="70" y="135" width="505" height="225" rx="12" fill="#f7f9fa" stroke="none"/>
+<rect x="70" y="135" width="7" height="225" rx="0" fill="#147d86" stroke="none"/>
+<text x="95" y="170" font-size="18" fill="#147d86" font-weight="bold" text-anchor="start">BRAZIL</text>
+<text x="95" y="203" font-size="24" fill="#203040" font-weight="bold" text-anchor="start">Bolsa Família</text>
+<text x="95" y="250" font-size="31" fill="#147d86" font-weight="bold" text-anchor="start">13.95m</text>
+<text x="95" y="273" font-size="14" fill="#5b6570" font-weight="normal" text-anchor="start">households</text>
+<text x="340" y="250" font-size="31" fill="#147d86" font-weight="bold" text-anchor="start">44.08m</text>
+<text x="340" y="273" font-size="14" fill="#5b6570" font-weight="normal" text-anchor="start">people in covered households</text>
+<text x="95" y="319" font-size="20" fill="#203040" font-weight="bold" text-anchor="start">~21.4% of national population</text>
+<rect x="95" y="329" width="455" height="14" rx="7" fill="#e9edf0" stroke="none"/>
+<rect x="95" y="329" width="97.3" height="14" rx="7" fill="#147d86" stroke="none"/>
+<rect x="625" y="135" width="505" height="225" rx="12" fill="#f7f9fa" stroke="none"/>
+<rect x="625" y="135" width="7" height="225" rx="0" fill="#d77237" stroke="none"/>
+<text x="650" y="170" font-size="18" fill="#d77237" font-weight="bold" text-anchor="start">MEXICO</text>
+<text x="650" y="203" font-size="24" fill="#203040" font-weight="bold" text-anchor="start">Prospera</text>
+<text x="650" y="250" font-size="31" fill="#d77237" font-weight="bold" text-anchor="start">~6.9m</text>
+<text x="650" y="273" font-size="14" fill="#5b6570" font-weight="normal" text-anchor="start">households</text>
+<text x="895" y="250" font-size="31" fill="#d77237" font-weight="bold" text-anchor="start">~28m</text>
+<text x="895" y="273" font-size="14" fill="#5b6570" font-weight="normal" text-anchor="start">people in covered households</text>
+<text x="650" y="319" font-size="20" fill="#203040" font-weight="bold" text-anchor="start">~22.5% of national population</text>
+<rect x="650" y="329" width="455" height="14" rx="7" fill="#e9edf0" stroke="none"/>
+<rect x="650" y="329" width="102.3" height="14" rx="7" fill="#d77237" stroke="none"/>
+<text x="70" y="401" font-size="19" fill="#203040" font-weight="bold" text-anchor="start">WHO WAS REACHED?</text>
+<line x1="70" y1="413" x2="1130" y2="413" stroke="#d6dce2" stroke-width="1"/>
+<text x="70" y="450" font-size="16" fill="#203040" font-weight="normal" text-anchor="start">Women among designated household holders</text>
+<text x="525" y="450" font-size="18" fill="#147d86" font-weight="bold" text-anchor="end">89.3%</text>
+<rect x="70" y="460" width="455" height="14" rx="7" fill="#e9edf0" stroke="none"/>
+<rect x="70" y="460" width="406.3" height="14" rx="7" fill="#147d86" stroke="none"/>
+<text x="70" y="522" font-size="16" fill="#203040" font-weight="normal" text-anchor="start">Rural households (2018)</text>
+<text x="525" y="522" font-size="18" fill="#147d86" font-weight="bold" text-anchor="end">27.4%</text>
+<rect x="70" y="532" width="455" height="14" rx="7" fill="#e9edf0" stroke="none"/>
+<rect x="70" y="532" width="124.7" height="14" rx="7" fill="#147d86" stroke="none"/>
+<text x="70" y="575" font-size="14" fill="#5b6570" font-weight="normal" text-anchor="start">Urban: 72.1%</text>
+<text x="625" y="450" font-size="16" fill="#203040" font-weight="normal" text-anchor="start">Women among designated household holders</text>
+<text x="1080" y="450" font-size="18" fill="#d77237" font-weight="bold" text-anchor="end">96.0%</text>
+<rect x="625" y="460" width="455" height="14" rx="7" fill="#e9edf0" stroke="none"/>
+<rect x="625" y="460" width="436.8" height="14" rx="7" fill="#d77237" stroke="none"/>
+<text x="625" y="522" font-size="16" fill="#203040" font-weight="normal" text-anchor="start">Rural households (2016)</text>
+<text x="1080" y="522" font-size="18" fill="#d77237" font-weight="bold" text-anchor="end">54.0%</text>
+<rect x="625" y="532" width="455" height="14" rx="7" fill="#e9edf0" stroke="none"/>
+<rect x="625" y="532" width="245.7" height="14" rx="7" fill="#d77237" stroke="none"/>
+<text x="625" y="575" font-size="14" fill="#5b6570" font-weight="normal" text-anchor="start">Semi-urban: 19%; urban: 26%</text>
+<text x="70" y="626" font-size="19" fill="#203040" font-weight="bold" text-anchor="start">PROGRAM DESIGN</text>
+<line x1="70" y1="638" x2="1130" y2="638" stroke="#d6dce2" stroke-width="1"/>
+<rect x="70" y="658" width="505" height="280" rx="12" fill="#f7f9fa" stroke="none"/>
+<text x="93" y="691" font-size="18" fill="#147d86" font-weight="bold" text-anchor="start">BOLSA FAMÍLIA</text>
+<text x="93" y="722" font-size="13" fill="#65717c" font-weight="bold" text-anchor="start">ENTRY</text>
+<text x="93" y="746" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">Income-tested; Cadastro Único</text>
+<text x="93" y="766" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">2018 entry: up to R$89/person, or R$178</text>
+<text x="93" y="786" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">with a child or adolescent</text>
+<text x="93" y="808" font-size="13" fill="#65717c" font-weight="bold" text-anchor="start">CONDITIONS</text>
+<text x="93" y="831" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">School attendance + child health</text>
+<text x="93" y="850" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">monitoring and prenatal care</text>
+<text x="93" y="876" font-size="13" fill="#65717c" font-weight="bold" text-anchor="start">PAYMENT</text>
+<text x="93" y="897" font-size="14" fill="#203040" font-weight="normal" text-anchor="start">Aug 2018 average: R$187/month</text>
+<text x="93" y="916" font-size="14" fill="#203040" font-weight="normal" text-anchor="start">per household; basic + child top-ups</text>
+<rect x="625" y="658" width="505" height="280" rx="12" fill="#f7f9fa" stroke="none"/>
+<text x="648" y="691" font-size="18" fill="#d77237" font-weight="bold" text-anchor="start">PROSPERA</text>
+<text x="648" y="722" font-size="13" fill="#65717c" font-weight="bold" text-anchor="start">ENTRY</text>
+<text x="648" y="746" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">Income / socioeconomic targeting</text>
+<text x="648" y="766" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">Poverty threshold; rural and urban</text>
+<text x="648" y="786" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">households eligible</text>
+<text x="648" y="808" font-size="13" fill="#65717c" font-weight="bold" text-anchor="start">CONDITIONS</text>
+<text x="648" y="831" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">School attendance + health visits</text>
+<text x="648" y="850" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">Also had a no-conditions support track</text>
+<text x="648" y="876" font-size="13" fill="#65717c" font-weight="bold" text-anchor="start">PAYMENT</text>
+<text x="648" y="897" font-size="14" fill="#203040" font-weight="normal" text-anchor="start">2018: MXN 335/month food support</text>
+<text x="648" y="916" font-size="14" fill="#203040" font-weight="normal" text-anchor="start">+ MXN 140 supplement; school grants vary</text>
+<text x="70" y="956" font-size="14" fill="#5b6570" font-weight="normal" text-anchor="start">Coverage includes all members of recipient households; benefits and rural definitions differ.</text>
+<text x="70" y="1001" font-size="19" fill="#203040" font-weight="bold" text-anchor="start">OBSERVED COUNTRY-LEVEL CHANGE</text>
+<line x1="70" y1="1013" x2="1130" y2="1013" stroke="#d6dce2" stroke-width="1"/>
+<text x="70" y="1040" font-size="14" fill="#5b6570" font-weight="normal" text-anchor="start">2004 to 2014  |  Relative % change uses the 2004 value as its base; not CCT effects</text>
+<rect x="70" y="1055" width="505" height="315" rx="12" fill="#f7f9fa" stroke="none"/>
+<text x="90" y="1085" font-size="17" fill="#147d86" font-weight="bold" text-anchor="start">BRAZIL</text>
+<text x="90" y="1120" font-size="15" fill="#203040" font-weight="bold" text-anchor="start">Gini index</text>
+<text x="90" y="1144" font-size="17" fill="#203040" font-weight="normal" text-anchor="start">56.5 → 52.1</text>
+<text x="550" y="1144" font-size="14" fill="#147d86" font-weight="bold" text-anchor="end">-4.4 index points (-7.8%)</text>
+<line x1="90" y1="1158" x2="555" y2="1158" stroke="#e2e8eb" stroke-width="1"/>
+<text x="90" y="1182" font-size="15" fill="#203040" font-weight="bold" text-anchor="start">Bottom 20% income share</text>
+<text x="90" y="1206" font-size="17" fill="#203040" font-weight="normal" text-anchor="start">2.9 → 3.6</text>
+<text x="550" y="1206" font-size="14" fill="#147d86" font-weight="bold" text-anchor="end">+0.7 pp (+24.1%)</text>
+<line x1="90" y1="1220" x2="555" y2="1220" stroke="#e2e8eb" stroke-width="1"/>
+<text x="90" y="1244" font-size="15" fill="#203040" font-weight="bold" text-anchor="start">Rural − urban poverty rates</text>
+<text x="90" y="1270" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">2004   Rural 70.7% − Urban 42.5% = 28.2 pp</text>
+<text x="90" y="1297" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">2014   Rural 45.9% − Urban 20.7% = 25.2 pp</text>
+<text x="550" y="1327" font-size="14" fill="#147d86" font-weight="bold" text-anchor="end">Gap change: -3.0 pp (-10.5%)</text>
+<rect x="625" y="1055" width="505" height="315" rx="12" fill="#f7f9fa" stroke="none"/>
+<text x="645" y="1085" font-size="17" fill="#d77237" font-weight="bold" text-anchor="start">MEXICO</text>
+<text x="645" y="1120" font-size="15" fill="#203040" font-weight="bold" text-anchor="start">Gini index</text>
+<text x="645" y="1144" font-size="17" fill="#203040" font-weight="normal" text-anchor="start">50.3 → 48.9</text>
+<text x="1105" y="1144" font-size="14" fill="#d77237" font-weight="bold" text-anchor="end">-1.4 index points (-2.8%)</text>
+<line x1="645" y1="1158" x2="1110" y2="1158" stroke="#e2e8eb" stroke-width="1"/>
+<text x="645" y="1182" font-size="15" fill="#203040" font-weight="bold" text-anchor="start">Bottom 20% income share</text>
+<text x="645" y="1206" font-size="17" fill="#203040" font-weight="normal" text-anchor="start">4.0 → 4.7</text>
+<text x="1105" y="1206" font-size="14" fill="#d77237" font-weight="bold" text-anchor="end">+0.7 pp (+17.5%)</text>
+<line x1="645" y1="1220" x2="1110" y2="1220" stroke="#e2e8eb" stroke-width="1"/>
+<text x="645" y="1244" font-size="15" fill="#203040" font-weight="bold" text-anchor="start">Rural − urban poverty rates</text>
+<text x="645" y="1270" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">2004   Rural 69.2% − Urban 36.5% = 32.7 pp</text>
+<text x="645" y="1297" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">2014   Rural 62.2% − Urban 33.8% = 28.4 pp</text>
+<text x="1105" y="1327" font-size="14" fill="#d77237" font-weight="bold" text-anchor="end">Gap change: -4.3 pp (-13.2%)</text>
+<text x="70" y="1390" font-size="13" fill="#5b6570" font-weight="normal" text-anchor="start">Poverty rate = population share below US$6.85/day (2017 PPP). Gap = rural minus urban, in percentage points.</text>
+<g transform="translate(0, 80)">
+<text x="70" y="1347" font-size="19" fill="#203040" font-weight="bold" text-anchor="start">ESTIMATES FROM THE RESEARCH LITERATURE</text>
+<line x1="70" y1="1359" x2="1130" y2="1359" stroke="#d6dce2" stroke-width="1"/>
+<text x="70" y="1385" font-size="14" fill="#5b6570" font-weight="normal" text-anchor="start">Different studies, samples and periods; compare the definitions, not just the numbers</text>
+<rect x="70" y="1401" width="505" height="320" rx="12" fill="#f7f9fa" stroke="none"/>
+<text x="90" y="1432" font-size="16" fill="#147d86" font-weight="bold" text-anchor="start">BRAZILIAN CCTS (BF FROM 2003)</text>
+<text x="90" y="1463" font-size="12" fill="#65717c" font-weight="bold" text-anchor="start">INEQUALITY ATTRIBUTION</text>
+<text x="90" y="1490" font-size="18" fill="#147d86" font-weight="bold" text-anchor="start">20.8% of Gini decline</text>
+<text x="90" y="1512" font-size="13" fill="#5b6570" font-weight="normal" text-anchor="start">1995 baseline → 2004; BF began in 2003 [1]</text>
+<text x="90" y="1550" font-size="12" fill="#65717c" font-weight="bold" text-anchor="start">SCHOOLING</text>
+<text x="90" y="1577" font-size="18" fill="#147d86" font-weight="bold" text-anchor="start">+4.5 pp school participation</text>
+<text x="90" y="1599" font-size="13" fill="#5b6570" font-weight="normal" text-anchor="start">Ages 6–17, 2005–09 matched panel; p&lt;0.10 [3]</text>
+<text x="90" y="1637" font-size="12" fill="#65717c" font-weight="bold" text-anchor="start">HEALTH SERVICE USE</text>
+<text x="90" y="1664" font-size="18" fill="#147d86" font-weight="bold" text-anchor="start">+15.5 pp on-time DPT dose 2</text>
+<text x="90" y="1686" font-size="13" fill="#5b6570" font-weight="normal" text-anchor="start">2005–09 impact evaluation; children [5]</text>
+<rect x="625" y="1401" width="505" height="320" rx="12" fill="#f7f9fa" stroke="none"/>
+<text x="645" y="1432" font-size="16" fill="#d77237" font-weight="bold" text-anchor="start">PROGRESA / OPORTUNIDADES</text>
+<text x="645" y="1463" font-size="12" fill="#65717c" font-weight="bold" text-anchor="start">INEQUALITY ATTRIBUTION</text>
+<text x="645" y="1490" font-size="18" fill="#d77237" font-weight="bold" text-anchor="start">20.5% of Gini decline</text>
+<text x="645" y="1512" font-size="13" fill="#5b6570" font-weight="normal" text-anchor="start">1996–2004; income-source decomposition [1]</text>
+<text x="645" y="1550" font-size="12" fill="#65717c" font-weight="bold" text-anchor="start">SCHOOLING</text>
+<text x="645" y="1577" font-size="18" fill="#d77237" font-weight="bold" text-anchor="start">+5.4 pp overall school enrollment</text>
+<text x="645" y="1599" font-size="13" fill="#5b6570" font-weight="normal" text-anchor="start">Ages 10–16, rural Progresa [9]; girls +9.3 pp [4]</text>
+<text x="645" y="1637" font-size="12" fill="#65717c" font-weight="bold" text-anchor="start">HEALTH SERVICE USE</text>
+<text x="645" y="1664" font-size="18" fill="#d77237" font-weight="bold" text-anchor="start">+18.2% clinic visits</text>
+<text x="645" y="1686" font-size="13" fill="#5b6570" font-weight="normal" text-anchor="start">Rural clinics, 1996–98; all local patients [6]</text>
+<text x="70" y="1755" font-size="19" fill="#203040" font-weight="bold" text-anchor="start">OTHER GINI ATTRIBUTION ESTIMATES</text>
+<line x1="70" y1="1767" x2="1130" y2="1767" stroke="#d6dce2" stroke-width="1"/>
+<text x="70" y="1791" font-size="14" fill="#5b6570" font-weight="normal" text-anchor="start">Study periods and the included transfer programs differ; figures are not directly comparable</text>
+<rect x="70" y="1805" width="505" height="205" rx="12" fill="#f7f9fa" stroke="none"/>
+<text x="90" y="1834" font-size="16" fill="#147d86" font-weight="bold" text-anchor="start">BRAZIL: BOLSA FAMÍLIA (FROM 2003)</text>
+<text x="90" y="1872" font-size="24" fill="#147d86" font-weight="bold" text-anchor="start">~17%</text>
+<text x="192" y="1872" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">of Gini decline, 2001–06 [2]</text>
+<text x="90" y="1902" font-size="24" fill="#147d86" font-weight="bold" text-anchor="start">~10%</text>
+<text x="192" y="1902" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">of Gini decline, 2001–15 [2]</text>
+<text x="90" y="1940" font-size="13" fill="#5b6570" font-weight="normal" text-anchor="start">Income-source decomposition; 2001 baseline</text>
+<text x="90" y="1960" font-size="13" fill="#5b6570" font-weight="normal" text-anchor="start">predates the Bolsa Família launch.</text>
+<rect x="625" y="1805" width="505" height="205" rx="12" fill="#f7f9fa" stroke="none"/>
+<text x="645" y="1834" font-size="16" fill="#d77237" font-weight="bold" text-anchor="start">MEXICO: BROADER TRANSFER GROUPS</text>
+<text x="645" y="1872" font-size="24" fill="#d77237" font-weight="bold" text-anchor="start">11.15%</text>
+<text x="755" y="1872" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">of Gini decline, 2000–12 [7]</text>
+<text x="645" y="1902" font-size="13" fill="#5b6570" font-weight="normal" text-anchor="start">Oportunidades-type public programs; includes others.</text>
+<text x="645" y="1940" font-size="24" fill="#d77237" font-weight="bold" text-anchor="start">73%</text>
+<text x="724" y="1940" font-size="15" fill="#203040" font-weight="normal" text-anchor="start">of transfer-related Gini effect, 2016 [8]</text>
+<text x="645" y="1967" font-size="13" fill="#5b6570" font-weight="normal" text-anchor="start">Prospera + old-age pensions; not the total Gini decline.</text>
+<text x="70" y="2042" font-size="12" fill="#5b6570" font-weight="normal" text-anchor="start">All attribution figures are accounting decompositions, not causal estimates. Full references and methods: data/cct_infographic_sources.md.</text>
+<text x="70" y="2062" font-size="12" fill="#5b6570" font-weight="normal" text-anchor="start">No comparable national health-access effect or bottom-50 share is shown.</text>
+</g>
+</svg>
