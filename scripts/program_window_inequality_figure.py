@@ -7,7 +7,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "figures"
 START = {"BRA": 2003, "MEX": 1998}  # WDI has no Mexico observation for 1997.
 END = 2014

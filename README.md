@@ -4,27 +4,27 @@ Python scripts, source extracts, and slide-ready figures for a comparison of
 inequality and conditional cash transfers in Brazil and Mexico. The main study
 window is **1997–2014**; individual charts state their own years and measures.
 
-
 ## Quick start
 
 ```sh
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
-.venv/bin/python cct_2014_snapshot.py
+.venv/bin/python scripts/cct_2014_snapshot.py
 ```
 
 ## Where to look
 
 | Path | Purpose |
 | --- | --- |
-| `*.py` | Main figure builders; `gini_figure.py`, `additional_figures.py`, and `program_comparison_infographics.py` fetch current source data. |
+| `scripts/` | Main figure builders; `gini_figure.py`, `additional_figures.py`, and `program_comparison_infographics.py` fetch current source data. |
+| `docs/` | Research notes, window decisions, and slide references. |
 | `data/` | Cleaned CSVs, frozen snapshot inputs, and source notes. |
 | `figures/` | Slide-ready PNGs, editable SVGs, and dated figure sets. Dated sets include their own `build.py` and `FIGURE_GUIDE.md` where applicable. |
 | `output/` | Presentation and figure exports. |
 
-For the broader figure set, run `additional_figures.py` before
-`bottom20_annotated.py`. The 2018 CCT infographic and program timeline come
-from `program_comparison_infographics.py`. Some builders download data and need
+For the broader figure set, run `scripts/additional_figures.py` before
+`scripts/bottom20_annotated.py`. The 2018 CCT infographic and program timeline come
+from `scripts/program_comparison_infographics.py`. Some builders download data and need
 internet; downloaded workbooks are cached in ignored `work/raw/`.
 
 ## Main data sources

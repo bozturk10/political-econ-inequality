@@ -7,7 +7,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "real_minimum_wage_program_windows.csv"
 OUTPUT = ROOT / "output" / "minimum_wage_brazil_2003_mexico_1997_to_2014.png"
 

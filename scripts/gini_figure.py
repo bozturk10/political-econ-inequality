@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Fetch World Bank Gini data and draw a Brazil–Mexico comparison figure.
 
-Run: python3 gini_figure.py
-Rebuild from the saved CSV without fetching: python3 gini_figure.py --cached
+Run: python3 scripts/gini_figure.py
+Rebuild from the saved CSV without fetching: python3 scripts/gini_figure.py --cached
 
 Data source (World Bank, Poverty and Inequality Platform via WDI):
 https://data.worldbank.org/indicator/SI.POV.GINI
@@ -26,7 +26,7 @@ from urllib.request import urlopen
 from window_timeline_svg import timeline_svg
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 FIGURE_DIR = ROOT / "figures"
 START_YEAR, END_YEAR = 1997, 2024

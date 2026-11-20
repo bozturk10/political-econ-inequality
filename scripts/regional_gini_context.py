@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/eclac_gini_annual_change_2002_2014.csv"
 OUT = ROOT / "figures"
 OUT.mkdir(exist_ok=True)

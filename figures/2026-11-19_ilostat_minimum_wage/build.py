@@ -3,10 +3,10 @@ import html
 from pathlib import Path
 
 HERE=Path(__file__).resolve().parent
-SOURCE=Path('/Users/berkyoztyurk/Desktop/pol_ec_ineq')
+SOURCE=Path(__file__).resolve().parents[2]/'data'/'ilostat_exports'
 FILES={
-    'Brazil':SOURCE/'EAR_INEE_CUR_NB_A-filtered-2026-11-19.csv',
-    'Mexico':SOURCE/'EAR_INEE_CUR_NB_A-filtered-2026-11-19 (1).csv',
+    'Brazil':SOURCE/'brazil_monthly_minimum_wage.csv',
+    'Mexico':SOURCE/'mexico_monthly_minimum_wage.csv',
 }
 COLOR={'Brazil':'#16838D','Mexico':'#E57835'}
 INK='#1E2933'; MUTED='#586773'; GRID='#DEE5E8'

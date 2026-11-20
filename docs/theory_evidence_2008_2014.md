@@ -1,6 +1,6 @@
 # Brezilya–Meksika: araştırma sorusu için ilk veri seti (2008–2014)
 
-Derleme tarihi: 16 Kasım 2026. Makine okunur tablo: [`data/theory_indicators_2008_2014.csv`](data/theory_indicators_2008_2014.csv). Her satırda ülke, yıl, gösterge, değer, birim, kaynak serisi ve bağlantı bulunur. 45 gözlem vardır; eksik yıllar tahmin edilmedi.
+Derleme tarihi: 16 Kasım 2026. Makine okunur tablo: [`data/theory_indicators_2008_2014.csv`](../data/theory_indicators_2008_2014.csv). Her satırda ülke, yıl, gösterge, değer, birim, kaynak serisi ve bağlantı bulunur. 45 gözlem vardır; eksik yıllar tahmin edilmedi.
 
 ## Sonuç değişkenleri
 
@@ -22,7 +22,7 @@ Kaynak: Dünya Bankası WDI, [Gini](https://data.worldbank.org/indicator/SI.POV.
 | İşgücü segmentasyonu | Kayıt dışı istihdam, 2012 → 2014: Brezilya %41,6 → %40,7; Meksika %60,3 → %58,7. | Meksika'da düzey daha yüksek; Brezilya'nın 2008 verisi bu ILO serisinde yok. |
 | Parti/siyasal bağlam (Garay; Huber–Stephens) | 2008–2014'te Brezilya'da PT (Lula ve Dilma); Meksika'da 2012'ye dek PAN (Calderón), ardından PRI (Peña Nieto). | Dönem kodlaması var; seçmen rekabeti veya kayıt dışı kesimlerin mobilizasyonu için güvenilir ortak yıllık ölçü henüz yok. |
 
-Kaynaklar: [Dünya Bankası ASPIRE veri ve tanımları](https://www.worldbank.org/en/data/datatopics/aspire/documentation), [ASPIRE ham veri](https://datacatalogfiles.worldbank.org/ddh-published/0037942/DR0087109/ASPIRE%20performance%20indicators.zip), [ILO reel asgari ücret, Tablo 10](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40americas/%40ro-lima/documents/publication/wcms_450098.pdf), [ILOSTAT toplu veri](https://ilostat.ilo.org/data/bulk/); siyasal dönemlerin kaynakları [`data/cct_government_timeline_sources.md`](data/cct_government_timeline_sources.md) içindedir.
+Kaynaklar: [Dünya Bankası ASPIRE veri ve tanımları](https://www.worldbank.org/en/data/datatopics/aspire/documentation), [ASPIRE ham veri](https://datacatalogfiles.worldbank.org/ddh-published/0037942/DR0087109/ASPIRE%20performance%20indicators.zip), [ILO reel asgari ücret, Tablo 10](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40americas/%40ro-lima/documents/publication/wcms_450098.pdf), [ILOSTAT toplu veri](https://ilostat.ilo.org/data/bulk/); siyasal dönemlerin kaynakları [`data/cct_government_timeline_sources.md`](../data/cct_government_timeline_sources.md) içindedir.
 
 ## Yorum sınırları ve eksik kalanlar
 

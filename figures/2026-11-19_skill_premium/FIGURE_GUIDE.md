@@ -21,6 +21,8 @@ The existing slide headline **“The skill premium fell in both, but from differ
 
 The ratio alone cannot establish whether low-skilled wages rose or high-skilled wages fell in real terms. The companion figure `02_real_hourly_wages_by_education.png` uses the workbook's `wage_1` sheet (nominal hourly wages by education) and [World Bank WDI consumer price index, `FP.CPI.TOTL`](https://data.worldbank.org/indicator/FP.CPI.TOTL). Each nominal wage is divided by that country's annual CPI and multiplied by 100 to express it in 2010-price local currency. Each education group's first observed year is then indexed to 100. The [calculation CSV](sedlac_real_hourly_wage_by_education_brazil_mexico.csv) retains the nominal wage, CPI, deflated wage, index and source row.
 
+`02_real_hourly_wages_by_education_points_only.png` and `.svg` show the same observed values and endpoint changes without any lines between survey years. This version makes the missing Mexican observations in 2003–2007 visually explicit.
+
 | Country and observed endpoints | Low education | Middle education | High education |
 | --- | ---: | ---: | ---: |
 | Brazil, 2003–2014 | +69.2% | +34.1% | +18.8% |

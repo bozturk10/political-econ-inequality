@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Create source-backed Brazil/Mexico CCT comparison infographics.
 
-Run: python3 program_comparison_infographics.py
+Run: python3 scripts/program_comparison_infographics.py
 Population denominator is fetched from the World Bank API (SP.POP.TOTL).
 Other snapshot values are from the official sources listed in SOURCES below.
 """
@@ -17,7 +17,7 @@ from pathlib import Path
 from urllib.request import urlopen
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 FIGURES = ROOT / "figures"
 DATA = ROOT / "data"
 POP_API = "https://api.worldbank.org/v2/country/BRA;MEX/indicator/SP.POP.TOTL?date=2018&format=json"

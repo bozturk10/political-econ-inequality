@@ -1,0 +1,183 @@
+country,year,poverty_headcount_percent,observed_survey_year,workbook_segment,method
+Bolivia,2002,53.809239,True,,observed
+Bolivia,2003,51.610404,False,,linear interpolation
+Bolivia,2004,49.411569,False,,linear interpolation
+Bolivia,2005,47.212734,True,,observed
+Bolivia,2006,42.076649,True,,observed
+Bolivia,2007,41.161266,True,,observed
+Bolivia,2008,33.919306,True,,observed
+Bolivia,2009,28.899612,True,,observed
+Bolivia,2010,26.183875,False,,linear interpolation
+Bolivia,2011,23.468137,True,,observed
+Bolivia,2012,23.672022,True,,observed
+Bolivia,2013,21.759178,True,,observed
+Bolivia,2014,20.188173,True,,observed
+Brazil,2002,47.319322,True,New PNAD,observed
+Brazil,2003,48.658196,True,New PNAD,observed
+Brazil,2004,47.337734,True,With Rural North,observed
+Brazil,2005,45.017971,True,With Rural North,observed
+Brazil,2006,41.379542,True,With Rural North,observed
+Brazil,2007,39.013388,True,With Rural North,observed
+Brazil,2008,35.826041,True,With Rural North,observed
+Brazil,2009,33.807117,True,With Rural North,observed
+Brazil,2010,31.858821,False,,linear interpolation
+Brazil,2011,29.910526,True,With Rural North,observed
+Brazil,2012,26.692773,True,With Rural North,observed
+Brazil,2013,25.086413,True,With Rural North,observed
+Brazil,2014,23.176035,True,With Rural North,observed
+Colombia,2002,57.666715,True,ECH-National,observed
+Colombia,2003,57.970548,True,ECH-National,observed
+Colombia,2004,57.346777,True,ECH-National,observed
+Colombia,2005,53.523699,True,ECH-National,observed
+Colombia,2006,51.850191,False,,linear interpolation
+Colombia,2007,50.176682,False,,linear interpolation
+Colombia,2008,48.503174,True,GEIH-National,observed
+Colombia,2009,47.306278,True,GEIH-National,observed
+Colombia,2010,44.591416,True,GEIH-National,observed
+Colombia,2011,41.648113,True,GEIH-National,observed
+Colombia,2012,39.776169,True,GEIH-National,observed
+Colombia,2013,37.623813,True,GEIH-National,observed
+Colombia,2014,35.428488,True,GEIH-National,observed
+Costa Rica,2002,27.793448,True,With Implicit Rent,observed
+Costa Rica,2003,26.476872,True,With Implicit Rent,observed
+Costa Rica,2004,27.929032,True,With Implicit Rent,observed
+Costa Rica,2005,25.359673,True,With Implicit Rent,observed
+Costa Rica,2006,25.087444,True,With Implicit Rent,observed
+Costa Rica,2007,20.334911,True,With Implicit Rent,observed
+Costa Rica,2008,19.991203,True,With Implicit Rent,observed
+Costa Rica,2009,19.406184,True,With Implicit Rent,observed
+Costa Rica,2010,15.611215,True,ENAHO,observed
+Costa Rica,2011,16.435834,True,ENAHO,observed
+Costa Rica,2012,15.551221,True,ENAHO,observed
+Costa Rica,2013,15.646446,True,ENAHO,observed
+Costa Rica,2014,15.140225,True,ENAHO,observed
+Dominican Republic,2002,40.03822,True,,observed
+Dominican Republic,2003,49.015122,True,,observed
+Dominican Republic,2004,57.032093,True,,observed
+Dominican Republic,2005,48.221219,True,ENFT 3,observed
+Dominican Republic,2006,44.951742,True,ENFT 3,observed
+Dominican Republic,2007,44.257709,True,ENFT 3,observed
+Dominican Republic,2008,45.862047,True,ENFT 4,observed
+Dominican Republic,2009,42.860766,True,ENFT 4,observed
+Dominican Republic,2010,43.668394,True,ENFT 4,observed
+Dominican Republic,2011,41.636677,True,ENFT 4,observed
+Dominican Republic,2012,41.239257,True,ENFT 4,observed
+Dominican Republic,2013,40.508556,True,ENFT 4,observed
+Dominican Republic,2014,34.771461,True,ENFT 4,observed
+El Salvador,2002,52.365702,True,,observed
+El Salvador,2003,53.563922,True,,observed
+El Salvador,2004,51.752574,True,,observed
+El Salvador,2005,51.822118,True,,observed
+El Salvador,2006,50.501141,True,,observed
+El Salvador,2007,47.21842,True,,observed
+El Salvador,2008,50.921578,True,,observed
+El Salvador,2009,50.499927,True,,observed
+El Salvador,2010,49.13238,True,,observed
+El Salvador,2011,49.972608,True,,observed
+El Salvador,2012,47.123256,True,,observed
+El Salvador,2013,42.734079,True,,observed
+El Salvador,2014,42.720252,True,,observed
+Guatemala,2002,49.529525,False,,linear interpolation
+Guatemala,2003,49.302749,False,,linear interpolation
+Guatemala,2004,49.075973,False,,linear interpolation
+Guatemala,2005,48.849196,False,,linear interpolation
+Guatemala,2006,48.62242,True,ENCOVI,observed
+Guatemala,2007,50.555449,False,,linear interpolation
+Guatemala,2008,52.488478,False,,linear interpolation
+Guatemala,2009,54.421506,False,,linear interpolation
+Guatemala,2010,56.354535,False,,linear interpolation
+Guatemala,2011,58.287564,True,ENCOVI,observed
+Guatemala,2012,57.32516,False,,linear interpolation
+Guatemala,2013,56.362757,False,,linear interpolation
+Guatemala,2014,55.400353,True,ENCOVI,observed
+Honduras,2002,61.534833,True,INE,observed
+Honduras,2003,64.957282,True,INE,observed
+Honduras,2004,64.501461,True,INE,observed
+Honduras,2005,62.007623,True,INE,observed
+Honduras,2006,56.417876,True,INE,observed
+Honduras,2007,54.224741,True,INE,observed
+Honduras,2008,51.311837,True,INE,observed
+Honduras,2009,48.432802,True,INE,observed
+Honduras,2010,51.264011,True,INE,observed
+Honduras,2011,51.437962,True,INE,observed
+Honduras,2012,56.902777,True,INE,observed
+Honduras,2013,54.434477,True,INE,observed
+Honduras,2014,53.06539,True,INE,observed
+Mexico,2002,47.04509,True,,observed
+Mexico,2003,45.60315,False,,linear interpolation
+Mexico,2004,44.16121,True,,observed
+Mexico,2005,42.927883,True,,observed
+Mexico,2006,39.660258,True,,observed
+Mexico,2007,39.952291,False,,linear interpolation
+Mexico,2008,40.244324,True,,observed
+Mexico,2009,40.213205,False,,linear interpolation
+Mexico,2010,40.182085,True,,observed
+Mexico,2011,38.762149,False,,linear interpolation
+Mexico,2012,37.342213,True,,observed
+Mexico,2013,38.841811,False,,linear interpolation
+Mexico,2014,40.341408,True,,observed
+Nicaragua,2002,67.01043,False,,linear interpolation
+Nicaragua,2003,65.014156,False,,linear interpolation
+Nicaragua,2004,63.017883,False,,linear interpolation
+Nicaragua,2005,61.021609,True,,observed
+Nicaragua,2006,60.032658,False,,linear interpolation
+Nicaragua,2007,59.043707,False,,linear interpolation
+Nicaragua,2008,58.054756,False,,linear interpolation
+Nicaragua,2009,57.065805,True,,observed
+Nicaragua,2010,54.069812,False,,linear interpolation
+Nicaragua,2011,51.073819,False,,linear interpolation
+Nicaragua,2012,48.077826,False,,linear interpolation
+Nicaragua,2013,45.081833,False,,linear interpolation
+Nicaragua,2014,42.08584,True,,observed
+Panama,2002,37.249085,True,Without Implicit Rent,observed
+Panama,2003,35.956887,True,Without Implicit Rent,observed
+Panama,2004,34.764885,True,Without Implicit Rent,observed
+Panama,2005,34.485907,True,Without Implicit Rent,observed
+Panama,2006,33.876227,True,Without Implicit Rent,observed
+Panama,2007,30.4814,True,Without Implicit Rent,observed
+Panama,2008,23.244384,True,With Implicit Rent,observed
+Panama,2009,23.011647,True,With Implicit Rent,observed
+Panama,2010,21.70791,True,With Implicit Rent,observed
+Panama,2011,18.339839,True,With Implicit Rent,observed
+Panama,2012,18.760873,True,With Implicit Rent,observed
+Panama,2013,18.164224,True,With Implicit Rent,observed
+Panama,2014,16.835927,True,With Implicit Rent,observed
+Paraguay,2002,51.673389,True,National,observed
+Paraguay,2003,44.667133,True,National,observed
+Paraguay,2004,42.786122,True,National,observed
+Paraguay,2005,39.147273,True,National,observed
+Paraguay,2006,43.820927,True,National,observed
+Paraguay,2007,40.284629,True,National,observed
+Paraguay,2008,37.249828,True,National,observed
+Paraguay,2009,35.674352,True,National,observed
+Paraguay,2010,34.051777,True,National,observed
+Paraguay,2011,32.248679,True,National,observed
+Paraguay,2012,26.997849,True,National,observed
+Paraguay,2013,23.253099,True,National,observed
+Paraguay,2014,22.645549,True,National,observed
+Peru,2002,60.197604,True,ENAHO 2,observed
+Peru,2003,59.434142,True,ENAHO 3,observed
+Peru,2004,59.759946,True,ENAHO 3,observed
+Peru,2005,61.503981,True,ENAHO 3,observed
+Peru,2006,55.861864,True,ENAHO 3,observed
+Peru,2007,50.303049,True,ENAHO 3,observed
+Peru,2008,46.402334,True,ENAHO 3,observed
+Peru,2009,44.554036,True,ENAHO 3,observed
+Peru,2010,40.52538,True,ENAHO 3,observed
+Peru,2011,38.069461,True,ENAHO 3,observed
+Peru,2012,35.295254,True,ENAHO 3,observed
+Peru,2013,34.510649,True,ENAHO 3,observed
+Peru,2014,33.377723,True,ENAHO 3,observed
+13-country unweighted mean,2002,50.248662,,,mean of country estimates
+13-country unweighted mean,2003,50.171582,,,mean of country estimates
+13-country unweighted mean,2004,49.913635,,,mean of country estimates
+13-country unweighted mean,2005,47.776991,,,mean of country estimates
+13-country unweighted mean,2006,45.702995,,,mean of country estimates
+13-country unweighted mean,2007,43.615972,,,mean of country estimates
+13-country unweighted mean,2008,41.847638,,,mean of country estimates
+13-country unweighted mean,2009,40.473326,,,mean of country estimates
+13-country unweighted mean,2010,39.169355,,,mean of country estimates
+13-country unweighted mean,2011,37.791644,,,mean of country estimates
+13-country unweighted mean,2012,36.519742,,,mean of country estimates
+13-country unweighted mean,2013,34.923641,,,mean of country estimates
+13-country unweighted mean,2014,33.47514,,,mean of country estimates

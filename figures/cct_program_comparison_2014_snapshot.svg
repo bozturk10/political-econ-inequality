@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<style>text{font-family:Arial,Helvetica,sans-serif}</style>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#ffffff" stroke="none"/>
+<text x="70" y="63" font-size="36" fill="#203040" font-weight="bold" text-anchor="start">Brazil and Mexico: conditional cash transfers</text>
+<text x="70" y="101" font-size="21" fill="#5b6570" font-weight="normal" text-anchor="start">1997–2014 study window  |  Program rules and 2014 reach</text>
+<line x1="70" y1="123" x2="1530" y2="123" stroke="#d6dce2" stroke-width="1"/>
+<text x="70" y="164" font-size="23" fill="#203040" font-weight="bold" text-anchor="start">PROGRAM DETAILS</text>
+<rect x="70" y="188" width="700" height="357" rx="14" fill="#f7f9fa" stroke="none"/>
+<rect x="70" y="188" width="8" height="357" rx="0" fill="#147d86" stroke="none"/>
+<text x="100" y="229" font-size="22" fill="#147d86" font-weight="bold" text-anchor="start">BRAZIL</text>
+<text x="100" y="263" font-size="28" fill="#203040" font-weight="bold" text-anchor="start">Bolsa Família</text>
+<text x="100" y="288" font-size="17" fill="#5b6570" font-weight="normal" text-anchor="start">From 2003</text>
+<text x="100" y="329" font-size="16" fill="#147d86" font-weight="bold" text-anchor="start">EDUCATION</text>
+<text x="100" y="356" font-size="19" fill="#203040" font-weight="normal" text-anchor="start">School attendance: 85% (ages 6–15);</text>
+<text x="100" y="380" font-size="19" fill="#203040" font-weight="normal" text-anchor="start">75% (ages 16–17).</text>
+<text x="100" y="404" font-size="16" fill="#147d86" font-weight="bold" text-anchor="start">HEALTH</text>
+<text x="100" y="431" font-size="19" fill="#203040" font-weight="normal" text-anchor="start">Child vaccination and growth/nutrition checks;</text>
+<text x="100" y="455" font-size="19" fill="#203040" font-weight="normal" text-anchor="start">prenatal and postpartum care.</text>
+<text x="100" y="482" font-size="16" fill="#147d86" font-weight="bold" text-anchor="start">PAYMENT</text>
+<text x="100" y="509" font-size="19" fill="#203040" font-weight="normal" text-anchor="start">Preferentially to the woman holder</text>
+<text x="100" y="533" font-size="19" fill="#203040" font-weight="normal" text-anchor="start">through a Caixa payment card or account.</text>
+<rect x="830" y="188" width="700" height="357" rx="14" fill="#f7f9fa" stroke="none"/>
+<rect x="830" y="188" width="8" height="357" rx="0" fill="#d77237" stroke="none"/>
+<text x="860" y="229" font-size="22" fill="#d77237" font-weight="bold" text-anchor="start">MEXICO</text>
+<text x="860" y="263" font-size="28" fill="#203040" font-weight="bold" text-anchor="start">Oportunidades / Prospera</text>
+<text x="860" y="288" font-size="17" fill="#5b6570" font-weight="normal" text-anchor="start">Progresa from 1997; renamed 2014</text>
+<text x="860" y="329" font-size="16" fill="#d77237" font-weight="bold" text-anchor="start">EDUCATION</text>
+<text x="860" y="356" font-size="19" fill="#203040" font-weight="normal" text-anchor="start">School enrollment and regular attendance.</text>
+<text x="860" y="404" font-size="16" fill="#d77237" font-weight="bold" text-anchor="start">HEALTH</text>
+<text x="860" y="431" font-size="19" fill="#203040" font-weight="normal" text-anchor="start">Scheduled clinic visits and health workshops;</text>
+<text x="860" y="455" font-size="19" fill="#203040" font-weight="normal" text-anchor="start">older-adult benefit: a visit every six months.*</text>
+<text x="860" y="482" font-size="16" fill="#d77237" font-weight="bold" text-anchor="start">PAYMENT</text>
+<text x="860" y="509" font-size="19" fill="#203040" font-weight="normal" text-anchor="start">Generally to the mother as named holder</text>
+<text x="860" y="533" font-size="19" fill="#203040" font-weight="normal" text-anchor="start">through payment points or an account.</text>
+<text x="70" y="571" font-size="23" fill="#203040" font-weight="bold" text-anchor="start">2014 REACH</text>
+<text x="275" y="571" font-size="18" fill="#5b6570" font-weight="normal" text-anchor="start">A snapshot within the study window</text>
+<line x1="70" y1="588" x2="1530" y2="588" stroke="#d6dce2" stroke-width="1"/>
+<rect x="70" y="605" width="700" height="220" rx="14" fill="#f7f9fa" stroke="none"/>
+<rect x="70" y="605" width="8" height="220" rx="0" fill="#147d86" stroke="none"/>
+<text x="100" y="639" font-size="20" fill="#147d86" font-weight="bold" text-anchor="start">BRAZIL</text>
+<text x="735" y="639" font-size="16" fill="#5b6570" font-weight="normal" text-anchor="end">December 2014</text>
+<text x="100" y="687" font-size="34" fill="#147d86" font-weight="bold" text-anchor="start">14.00m</text>
+<text x="100" y="711" font-size="17" fill="#5b6570" font-weight="normal" text-anchor="start">households</text>
+<text x="418" y="687" font-size="34" fill="#147d86" font-weight="bold" text-anchor="start">~48.7m</text>
+<text x="418" y="711" font-size="17" fill="#5b6570" font-weight="normal" text-anchor="start">people in covered households</text>
+<text x="100" y="751" font-size="20" fill="#203040" font-weight="bold" text-anchor="start">~24.3% of national population</text>
+<rect x="100" y="762" width="640" height="14" rx="7" fill="#e9edf0" stroke="none"/>
+<rect x="100" y="762" width="155.8" height="14" rx="7" fill="#147d86" stroke="none"/>
+<text x="100" y="807" font-size="18" fill="#147d86" font-weight="bold" text-anchor="start">Women holders  93%</text>
+<text x="434" y="807" font-size="18" fill="#147d86" font-weight="bold" text-anchor="start">Rural households  27.2%</text>
+<rect x="830" y="605" width="700" height="220" rx="14" fill="#f7f9fa" stroke="none"/>
+<rect x="830" y="605" width="8" height="220" rx="0" fill="#d77237" stroke="none"/>
+<text x="860" y="639" font-size="20" fill="#d77237" font-weight="bold" text-anchor="start">MEXICO</text>
+<text x="1495" y="639" font-size="16" fill="#5b6570" font-weight="normal" text-anchor="end">September 2014</text>
+<text x="860" y="687" font-size="34" fill="#d77237" font-weight="bold" text-anchor="start">6.12m</text>
+<text x="860" y="711" font-size="17" fill="#5b6570" font-weight="normal" text-anchor="start">households</text>
+<text x="1178" y="687" font-size="34" fill="#d77237" font-weight="bold" text-anchor="start">~27.0m</text>
+<text x="1178" y="711" font-size="17" fill="#5b6570" font-weight="normal" text-anchor="start">people in covered households</text>
+<text x="860" y="751" font-size="20" fill="#203040" font-weight="bold" text-anchor="start">~22.5% of national population</text>
+<rect x="860" y="762" width="640" height="14" rx="7" fill="#e9edf0" stroke="none"/>
+<rect x="860" y="762" width="144.3" height="14" rx="7" fill="#d77237" stroke="none"/>
+<text x="860" y="807" font-size="18" fill="#d77237" font-weight="bold" text-anchor="start">Women holders  96%</text>
+<text x="1194" y="807" font-size="18" fill="#d77237" font-weight="bold" text-anchor="start">Rural households  59.2%</text>
+<text x="70" y="852" font-size="15" fill="#5b6570" font-weight="normal" text-anchor="start">* Older-adult visit applies to that specific benefit; its certification also served as proof of life.</text>
+<text x="70" y="876" font-size="15" fill="#5b6570" font-weight="normal" text-anchor="start">Dates and denominators differ; Mexico&#x27;s ~27m people is from an early-2015 report. Sources: data/cct_2014_snapshot_sources.md</text>
+</svg>

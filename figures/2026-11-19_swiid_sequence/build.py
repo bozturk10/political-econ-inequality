@@ -172,8 +172,7 @@ save(fig,"03_compact_for_table")
 
 # 4. A compact companion table for positioning next to figure 3.
 rows = []
-for c in ("Brazil", "Mexico"):
-    start = 2003 if c == "Brazil" else 1997
+for c, start in (("Brazil", 2003), ("Mexico", 1997), ("Mexico", 2003)):
     m0, m1 = val(c, start, "gini_mkt"), val(c, 2014, "gini_mkt")
     d0, d1 = val(c, start, "gini_disp"), val(c, 2014, "gini_disp")
     rows.append({"country": c, "period": f"{start}–2014", "market_start": m0,
@@ -187,19 +186,19 @@ with (OUT / "04_companion_table.csv").open("w", newline="", encoding="utf-8") as
     writer.writeheader(); writer.writerows(rows)
 
 fig = plt.figure(figsize=(8.4, 5.7))
-fig.text(.06,.91,"Programme-era Gini changes",fontsize=20,weight="bold",color=INK)
-fig.text(.06,.845,"Brazil 2003–2014  |  Mexico 1997–2014",fontsize=11.5,color=MUTED)
+fig.text(.06,.91,"Gini changes",fontsize=20,weight="bold",color=INK)
+fig.text(.06,.845,"Programme windows and shared 2003–2014 comparison",fontsize=11.5,color=MUTED)
 ax=fig.add_axes([.06,.21,.88,.55]); ax.set_axis_off()
-colx=[0,.40,.70,1]
+colx=[0,.31,.54,.77,1]
 heights=[.19,.27,.27,.27]
 ys=[1]
 for h in heights: ys.append(ys[-1]-h)
-for j in range(3):
+for j in range(4):
     ax.add_patch(Rectangle((colx[j],ys[1]),colx[j+1]-colx[j],heights[0],
-                           facecolor=INK if j==0 else BLUE if j==1 else ORANGE,transform=ax.transAxes))
-for j,s in enumerate(["Measure","Brazil","Mexico"]):
+                           facecolor=INK if j==0 else BLUE if j==1 else ORANGE if j==2 else "#AD4B0C",transform=ax.transAxes))
+for j,s in enumerate(["Measure","Brazil\n2003–14","Mexico\n1997–14","Mexico\n2003–14"]):
     ax.text((colx[j]+colx[j+1])/2, (ys[0]+ys[1])/2,s,ha="center",va="center",
-            color="white",weight="bold",fontsize=13.5,transform=ax.transAxes)
+            color="white",weight="bold",fontsize=11.5,linespacing=1.3,transform=ax.transAxes)
 table_data=[
     ("Market-income Gini", "market"),
     ("Disposable-income Gini", "disposable"),
@@ -209,15 +208,15 @@ for i,(label,key) in enumerate(table_data,1):
     y0,y1=ys[i+1],ys[i]
     ax.add_patch(Rectangle((0,y0),1,y1-y0,facecolor="#F3F6F7" if i%2 else "white",
                            edgecolor=GRID,lw=1,transform=ax.transAxes))
-    ax.text(.025,(y0+y1)/2,label,ha="left",va="center",fontsize=11.7,
+    ax.text(.02,(y0+y1)/2,label,ha="left",va="center",fontsize=10.8,
             color=INK,transform=ax.transAxes)
     for j,r in enumerate(rows,1):
         x=(colx[j]+colx[j+1])/2
         s=f"{r[key+'_start']:.1f} → {r[key+'_end']:.1f}\n{r[key+'_change']:+.1f} pp"
-        ax.text(x,(y0+y1)/2,s,ha="center",va="center",fontsize=11.8,
+        ax.text(x,(y0+y1)/2,s,ha="center",va="center",fontsize=10.9,
                 color=BLUE if j==1 else ORANGE,
                 linespacing=1.6,transform=ax.transAxes)
-fig.text(.06,.13,"¹ Difference after all taxes and transfers; not the CCT effect alone.",fontsize=9.7,color=MUTED)
+fig.text(.06,.13,"¹ Market minus disposable Gini; reflects all taxes and transfers, not CCTs alone.",fontsize=9.7,color=MUTED)
 fig.text(.06,.075,"Source: Solt, SWIID 8.0 summary file (2019); authors’ calculations.",fontsize=9.2,color=MUTED)
 save(fig,"04_companion_table")
 

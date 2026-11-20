@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import ConnectionPatch
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "real_minimum_wage_full_1997_2014.csv"
 OUTPUT = ROOT / "output" / "minimum_wage_brazil_mexico_common_1997_baseline.png"
 

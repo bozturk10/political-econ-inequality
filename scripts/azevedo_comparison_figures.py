@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-OUT = Path(__file__).resolve().parent / "figures"
+OUT = Path(__file__).resolve().parents[1] / "figures"
 OUT.mkdir(exist_ok=True)
 BRAZIL, MEXICO = "#147d86", "#d77237"
 INK, MUTED, GRID = "#17232b", "#5e6e77", "#e2e8eb"

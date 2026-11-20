@@ -10,7 +10,7 @@ from pathlib import Path
 
 from window_timeline_svg import timeline_svg
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/bottom20_income_share.csv"
 FIGURES = ROOT / "figures"
 START_YEAR, END_YEAR = 1997, 2024

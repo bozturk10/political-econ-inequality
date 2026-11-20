@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fetch and plot complementary Brazil–Mexico inequality indicators.
 
-Run after installing requirements.txt: python3 additional_figures.py
+Run after installing requirements.txt: python3 scripts/additional_figures.py
 
 Primary data sources:
 World Bank WDI (bottom 20% income share):
@@ -32,7 +32,7 @@ import pandas as pd
 from openpyxl import load_workbook
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "work" / "raw"
 DATA = ROOT / "data"
 FIGURES = ROOT / "figures"

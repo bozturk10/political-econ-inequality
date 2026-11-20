@@ -10,7 +10,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 SOURCES = {
     "union": ROOT / "work/raw/ILR_TUMT_NOC_RT_A-20261116.csv.gz",
     "informal": ROOT / "work/raw/EMP_NIFL_SEX_RT_A-20261116.csv.gz",

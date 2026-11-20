@@ -8,7 +8,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 FIGURES = ROOT / "figures"
 DATASETS = {
     "gini": (ROOT / "data/gini_brazil_mexico_1997_2026.csv", "gini_index_0_100"),
