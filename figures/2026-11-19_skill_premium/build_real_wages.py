@@ -8,7 +8,7 @@ import openpyxl
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
-SOURCE = ROOT / "data/2026_Act1_wages_hours_LAC.xlsx"
+SOURCE = ROOT / "work/raw/2026_Act1_wages_hours_LAC.xlsx"
 CPI_FILE = HERE / "wdi_cpi_observed_wage_years.csv"
 SEDLAC_URL = "https://www.cedlas.econo.unlp.edu.ar/wp/wp-content/uploads/2026_Act1_wages_hours_LAC.xlsx"
 WDI_URL = "https://data.worldbank.org/indicator/FP.CPI.TOTL"
@@ -88,6 +88,7 @@ def ln(x1, y1, x2, y2, stroke="#DDE5E8", width=2, dash=None):
 colors = {"Low": "#137F88", "Middle": "#D99A35", "High": "#284F8C"}
 muted = "#5C6A73"
 W, H = 1920, 1080
+connectors = []
 body = [el("rect", {"x": 0, "y": 0, "width": W, "height": H, "fill": "white"}),
         txt(95, 103, "Real hourly wages by education level", 49, 700),
         txt(95, 153, "Within-country change; each education group’s first observed year = 100", 27, fill=muted),
@@ -113,7 +114,9 @@ for country, left, right, start, end in (("Brazil", 145, 835, 2003, 2014), ("Mex
         points = [(r["year"], r["index_first_observed_100"]) for r in records
                   if r["country"] == country and r["education"] == group]
         for (ya, va), (yb, vb) in zip(points, points[1:]):
-            body.append(ln(px(ya), py(va), px(yb), py(vb), color, 4, "1 11" if yb - ya > 1 else None))
+            segment = ln(px(ya), py(va), px(yb), py(vb), color, 4, "1 11" if yb - ya > 1 else None)
+            connectors.append(segment)
+            body.append(segment)
         for year, value in points:
             body.append(el("circle", {"cx": px(year), "cy": py(value), "r": 6,
                                       "fill": color, "stroke": "white", "stroke-width": 1.5}))
@@ -131,5 +134,18 @@ body += [txt(95, 907, "Real wage = nominal local-currency hourly wage ÷ CPI × 
          txt(95, 1036, "Brazil’s PNAD expands to rural North in 2004; Mexico has no 1997 wage observation and no 2003–07 observations.", 18, fill=muted)]
 (HERE / "02_real_hourly_wages_by_education.svg").write_text(
     '<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">' + "".join(body) + "</svg>",
+    encoding="utf-8",
+)
+
+# Companion version: display observed survey years as separate points only.
+points_only = [part for part in body if part not in connectors]
+points_only = [part.replace('r="6"', 'r="8"') for part in points_only]
+points_only = [part.replace("Within-country change; each education group’s first observed year = 100",
+                                 "Observed survey years only; each education group’s first year = 100")
+               .replace("Each line is rebased separately: compare changes within a country, not wage levels across countries.",
+                        "Each series is rebased separately: compare changes within a country, not wage levels across countries.")
+               for part in points_only]
+(HERE / "02_real_hourly_wages_by_education_points_only.svg").write_text(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">' + "".join(points_only) + "</svg>",
     encoding="utf-8",
 )

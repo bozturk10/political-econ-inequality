@@ -8,7 +8,7 @@ import openpyxl
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
-SOURCE = ROOT / "data/2026_Act1_wages_hours_LAC.xlsx"
+SOURCE = ROOT / "work/raw/2026_Act1_wages_hours_LAC.xlsx"
 SOURCE_URL = "https://www.cedlas.econo.unlp.edu.ar/wp/wp-content/uploads/2026_Act1_wages_hours_LAC.xlsx"
 
 wb = openpyxl.load_workbook(SOURCE, read_only=True, data_only=True)

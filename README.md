@@ -1,60 +1,54 @@
-# Brazil–Mexico inequality figures
+# Brazil–Mexico inequality research figures
 
-Run `python3 program_comparison_infographics.py` to create two English-language
-program infographics in `figures/`: a Bolsa Família–Prospera comparison
-with a 2018 program snapshot, 2004–2014 country-level inequality changes and
-published program outcomes; plus a separate 1997–2026 program timeline.
-The script fetches 2018 population denominators from the World Bank API and
-reads WDI/SEDLAC metric extracts from `data/`. Values, methods and source links
-are recorded in `data/cct_infographic_sources.md`. It writes SVG files and, when
-`rsvg-convert` is installed, PNG copies.
+Python scripts, source extracts, and slide-ready figures for a comparison of
+inequality and conditional cash transfers in Brazil and Mexico. The main study
+window is **1997–2014**; individual charts state their own years and measures.
 
-Run `python3 gini_figure.py` to fetch the World Bank Gini series and create:
 
-- `data/gini_brazil_mexico_1997_2026.csv`: observed country/year values and API URL.
-- `figures/gini_brazil_mexico_1997_2026.svg`: editable vector figure.
-- `figures/gini_brazil_mexico_1997_2026.png`: generated when `rsvg-convert` is available.
-
-The script uses only Python's standard library. It requests the World Bank indicator
-[`SI.POV.GINI`](https://data.worldbank.org/indicator/SI.POV.GINI) for Brazil and Mexico.
-The API endpoint and program date sources are listed at the top of the script.
-Missing survey years are not filled. The figure is descriptive; it cannot identify
-the causal effect of a cash transfer program on inequality.
-
-For the complementary figures, install the small plotting/Excel dependencies and run:
+## Quick start
 
 ```sh
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
-.venv/bin/python additional_figures.py
-.venv/bin/python bottom20_annotated.py
+.venv/bin/python cct_2014_snapshot.py
 ```
 
-Run `bottom20_annotated.py` after `additional_figures.py` to rebuild the
-annotated bottom-20 figure from the saved WDI CSV. It needs `rsvg-convert` for
-the PNG export. Annotation sources and interpretation are documented in
-`comparison_window_decision.md`.
+## Where to look
 
-This generates PNG, SVG and cleaned CSV files for:
+| Path | Purpose |
+| --- | --- |
+| `*.py` | Main figure builders; `gini_figure.py`, `additional_figures.py`, and `program_comparison_infographics.py` fetch current source data. |
+| `data/` | Cleaned CSVs, frozen snapshot inputs, and source notes. |
+| `figures/` | Slide-ready PNGs, editable SVGs, and dated figure sets. Dated sets include their own `build.py` and `FIGURE_GUIDE.md` where applicable. |
+| `output/` | Presentation and figure exports. |
 
-1. Bottom 20% income share (World Bank WDI `SI.DST.FRST.20`).
-2. Urban-to-rural mean per capita income ratio (SEDLAC; within-country ratio).
-3. Rural minus urban poverty rate at $6.85/day, 2017 PPP (SEDLAC).
-4. Coverage and beneficiary incidence for the poorest quintile in the conditional
-   cash transfer category (World Bank ASPIRE; pre-transfer welfare ranking).
-5. Conditional cash transfer category coverage of the total population (World Bank
-   ASPIRE; direct and indirect beneficiaries).
-6. Approximate people below the SEDLAC $6.85/day (2017 PPP) poverty line.
-7. Approximate people covered by the ASPIRE conditional cash transfer category.
-8. Poverty rate and CCT coverage as percentages of total population, in separate
-   Brazil and Mexico panels. The groups may overlap, so the gap between the rates
-   is not the share of poor people without benefits.
+For the broader figure set, run `additional_figures.py` before
+`bottom20_annotated.py`. The 2018 CCT infographic and program timeline come
+from `program_comparison_infographics.py`. Some builders download data and need
+internet; downloaded workbooks are cached in ignored `work/raw/`.
 
-The last two multiply the survey percentage by same-year World Bank population
-(`SP.POP.TOTL`). These are rounded estimates, not administrative headcounts.
+## Main data sources
 
-All figures are in English. Downloaded source workbooks are cached under `work/raw/`
-and ignored by Git. Source URLs are in `additional_figures.py` and the cleaned CSVs.
-SEDLAC uses different survey methods over time, including a Brazil break around
-2012 and a Mexico break in 2016. ASPIRE is a survey-based *program category*,
-not a Bolsa Família or Prospera impact estimate; its 2006–2018 observations are sparse.
+- [World Bank Indicators API](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392): Gini (`SI.POV.GINI`), bottom-20 income share (`SI.DST.FRST.20`), and population (`SP.POP.TOTL`). The country queries are in the Python scripts.
+- [SEDLAC (CEDLAS and World Bank)](https://www.cedlas.econo.unlp.edu.ar/wp/en/statistics/sedlac/statistics-3/): rural–urban poverty, income, and wage workbooks.
+- [World Bank ASPIRE](https://www.worldbank.org/en/data/datatopics/aspire/indicator/performance): survey-based social-protection coverage and targeting. These are program-category estimates, not Bolsa Família or Prospera impact estimates.
+- [ILOSTAT](https://ilostat.ilo.org/data/): monthly minimum-wage series. The two original CSV exports are in `data/ilostat_exports/`; rebuild with `python3 figures/2026-11-19_ilostat_minimum_wage/build.py`.
+- [SWIID 8.0](https://doi.org/10.7910/DVN/LM4OWF): market- and disposable-income Gini series used in `figures/2026-11-19_swiid_sequence/`.
+
+Source URLs, date choices, and caveats for individual figures are in nearby
+`FIGURE_GUIDE.md` files and `data/*sources.md`. SEDLAC surveys and definitions
+can change across years; inspect each figure's guide before interpreting a trend.
+
+## Data and reuse
+
+The committed CSVs contain analysis inputs or selected series; figure scripts
+and source notes document their provenance. The original SEDLAC wages and hours
+workbook is deliberately not redistributed. To rebuild the education wage
+figures, download the [November 2026 workbook](https://www.cedlas.econo.unlp.edu.ar/wp/wp-content/uploads/2026_Act1_wages_hours_LAC.xlsx)
+to `work/raw/2026_Act1_wages_hours_LAC.xlsx`, then run the two scripts in
+`figures/2026-11-19_skill_premium/`. The `work/` directory is ignored by Git.
+
+Data and figures retain their source-specific rights. Cite SEDLAC data as
+“Source: SEDLAC (CEDLAS and The World Bank)” with the access date, and see the
+individual figure guides for other sources. A license for this repository's
+code would not relicense third-party data.
